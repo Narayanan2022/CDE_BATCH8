@@ -1,0 +1,4 @@
+select * from empy where to_char (hiredate,’YYYY’) not in (‘1981’); (OR) 
+select * from empy where to_char ( hiredate,’YYYY’) != ‘1981’; (OR) 
+select * from empy where to_char(hiredate,’YYYY’) <> ‘1981’ ; (OR) 
+select * from empy where to_char (hiredate ,’YYYY’) not like ‘1981’; 
